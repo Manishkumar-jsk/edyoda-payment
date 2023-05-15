@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.home-container{
+    display: flex;
+    width:100%;
+    height:100%;
+    background:url('/public/images/Back Ground.png');
+}
+
+.home-left{
+    margin-top:80px;
+    margin-left:100px;
+}
+
+.home-top{
+    font-family: 'Raleway', sans-serif;
+    font-size:45px;
+    color:white;
+}
+
+.home-left-inr{
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+}
+
+.home-del{
+    color:red;
+}
+
+.home-list-text{
+    margin-left:50px;
+    font-size:20px;
+}
+
+.home-right{
+    flex:5;
+    margin-top:60px;
+    margin-left:200px;
+    margin-bottom:40px;
+}
+
+.home-right-wrapper{
+    background-color:white;
+    width:500px;
+    height:830px;
+    border-radius:8px;
+}
+
+.home-right-signup{
+    width:25px;
+    height: 25px;
+    background:#0096FF;
+    border-radius:15px;
+}
+
+.home-right-text1{
+    position: relative;
+    right:10px;
+    bottom:10px
+}
+
+.home-right-text2{
+    position: relative;
+    right: 15px;
+    bottom:10px
+}
+
+.home-right-middle{
+    color:black;
+}
+
+.home-right-middle h6{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+
+.home-right-middle-box1{
+    border: 2px solid #BEBEBE;
+    border-radius: 8px;
+    background: #E7E7E7;
+    color: #BEBEBE;
+    width:460px;
+    height:70px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.home-righ-offer-expired{
+    position:relative;
+    left:62px;
+    background:#F77171;
+    width:121px;
+    height:17px;
+    font-size:0.7rem;
+    color:white;
+    border-radius: 0px 0px 4px 4px;
+    z-index:2;
+}
+
+.home-right-middle-box2{
+    display: flex;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    align-items: center;
+    position:relative;
+    bottom:20px;
+}
+
+.home-right-middle-select{
+    margin-left:15px;
+    margin-right:20px;
+}
+
+.home-right-middle-amount p{
+    margin-left:140px;
+    font-size:0.8rem;
+}
+
+.home-right-middle-box{
+    border: 2px solid #BEBEBE;
+    border-radius: 8px;
+    width:460px;
+    height:70px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.home-righ-offer-recommended{
+    position:relative;
+    left:62px;
+    background:#47BA68;
+    width:121px;
+    height:17px;
+    font-size:0.7rem;
+    color:white;
+    border-radius: 0px 0px 4px 4px;
+    z-index:2;
+}
+
+.hrLine{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.home-subs{
+    display:flex;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-right:40px;
+    color:#3C4852;
+}
+
+.home-right-middle-box3{
+    border: 2px solid #DE4313;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    width:460px;
+    height:70px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.home-right-middle-limited{
+    display:flex;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.limited{
+    position:relative;
+    top:10px;
+    right:55px;
+    color:#DE4313
+}
+
+.limited-offer{
+    position:relative;
+    bottom:5px;
+    color:#DE4313;
+}
+
+.limited-price{
+    margin-top:10px
+}
+
+.limited-total{
+    display: flex;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-right:60px;
+}
+
+.bottom-btn-cancel{
+    font-family: 'Roboto', sans-serif;
+    border:2px solid #F77171;
+    color:#F77171;
+    background:none;
+    margin:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.bottom-btn-pay{
+    font-family: 'Roboto', sans-serif;
+    border:2px solid #47BA68;
+    color:white;
+    background:#47BA68;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.home-right-bottom-img{
+    margin-right:330px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
